@@ -1,0 +1,45 @@
+alias ls='ls --color=auto'
+alias cp='cp -r'
+alias rm='rm -rf'
+alias grep='grep --color=auto -in'
+alias ll='ls -alhF'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ai='sudo apt install -y'
+alias pi='sudo pip3 install -U'
+alias py='python3'
+alias ipy='ipython3 -i'
+alias jn='jupyter notebook'
+alias make="make -j$(nproc)"
+alias s='sudo -s '
+alias rs='rsync -avhPS'
+alias g='git'
+alias c='code'
+alias cc='code .'
+alias sc='sudo code --user-data-dir=/root/.vscode-root'
+alias ka='killall'
+pa(){ps aux | grep $1}
+
+# alias d='docker'
+# alias dr='docker run'
+# alias di='docker images'
+# alias dl='docker logs'
+# alias dl='docker build'
+# alias dra='docker rm `docker ps -aq`'
+# alias dri='docker rmi -f $(docker images --filter "dangling=true" -q)'
+# alias dtop='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
+# alias dp="docker ps --format 'table {{.Names}}\t{{.Image}} {{.Status}}'"
+# alias dps="docker ps"
+# dsr(){docker stop $1 && docker rm $1}
+
+# alias k="kubectl"
+# alias kl="kubectl logs"
+# alias kp="kubectl get pods"
+# alias ka="kubectl apply -f"
+# alias kd="kubectl delete -f"
+# ke(){kubectl exec -it $1 bash}
+
+# alias t="terraform"
+# alias ta="terraform apply -auto-approve"
+# alias td="terraform destroy -auto-approve"

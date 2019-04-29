@@ -1,0 +1,18 @@
+[user]
+	name = Johan Ju
+	email = johanj93@gmail.com
+[alias]
+	aa = "commit --amend --no-edit"
+	br = branch
+	ci = commit
+	cl = clone
+	co = checkout
+	cp = cherry-pick
+	dc = diff --cached
+	df = diff
+	la = log -1 HEAD
+	lol = log --graph --decorate=full --pretty=oneline --abbrev-commit
+	pr = "pull --rebase"
+	st = status
+	un = reset HEAD --
+	ro = !git fetch && git reset --hard origin
